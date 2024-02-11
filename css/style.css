@@ -1,0 +1,21 @@
+.main .main-img{
+   fill: #E73BA5 ; 
+   width: 500px;
+   height: 500px;
+   margin-left: 392px;
+   margin-top: 50px;
+   margin-right: auto;
+}
+.main .main-text{
+   font-size: 22px;
+   text-align: center;
+}
+
+.main .coming-soon{
+   text-align: center;
+   color: #E73BA5;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 68px;
+}
+
