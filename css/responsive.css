@@ -1,0 +1,6 @@
+@media(min-width:576px){
+    .main .main-img{  
+        width: 500px;
+        height: 500px;
+     }
+}

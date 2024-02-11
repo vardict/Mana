@@ -1,10 +1,11 @@
+.main{
+   text-align: center;
+}
+
 .main .main-img{
    fill: #E73BA5 ; 
-   width: 500px;
-   height: 500px;
-   margin-left: 392px;
-   margin-top: 50px;
-   margin-right: auto;
+   width: 300px;
+   height: 300px;
 }
 .main .main-text{
    font-size: 22px;
