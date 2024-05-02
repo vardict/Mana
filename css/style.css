@@ -1,22 +1,89 @@
-.main{
-   text-align: center;
+* {
+   font-family: 'Cooper Hewitt';
+   font-size: 18px;
 }
 
-.main .main-img{
-   fill: #E73BA5 ; 
-   width: 300px;
-   height: 300px;
-}
-.main .main-text{
-   font-size: 22px;
-   text-align: center;
+.navbar {
+   margin-bottom: 15px;
 }
 
-.main .coming-soon{
-   text-align: center;
+.navbar .main-img {
+   fill: #E73BA5;
+   width: 70px;
+   height: 70px;
+}
+
+.navbar-nav .nav-item a {
    color: #E73BA5;
-   text-transform: uppercase;
-   font-weight: 700;
-   font-size: 68px;
+   font-size: 18px;
+   margin-right: 25px;
 }
 
+
+/*Info section*/
+.info .info-text h3 {
+   text-align: center;
+   width: 1000px;
+   margin: auto;
+   padding: 30px;
+}
+
+.info .info-text p {
+   text-align: center;
+   font-size: 22px;
+   color: #E73BA5;
+   font-weight: 700;
+}
+
+/*about section*/
+.about {
+   margin-bottom: 70px;
+}
+
+.about .info {
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.about .info h1 {
+   font-size: 55px;
+   margin-bottom: 30px;
+   color: #E73BA5;
+}
+
+.about .info p {
+   font-size: 22px;
+   width: 1100px;
+   margin: auto;
+}
+
+.about .about-team {
+   border-top: 3px solid;
+   border-left: 3px solid;
+   border-top-left-radius: 20px;
+   padding: 25px 25px 10px 25px;
+}
+
+.about .about-team h2 {
+   margin-bottom: 25px;
+}
+
+/*Footer section*/
+footer {
+   padding: 30px;
+}
+
+.social {
+   text-align: center;
+}
+
+.social a {
+   color: #E73BA5;
+   font-size: 25px;
+   text-decoration: none;
+   padding: 0 10px;
+}
+
+.social a:hover{
+   color: #00ced1;
+}
