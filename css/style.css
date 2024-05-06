@@ -23,7 +23,7 @@
 /*Info section*/
 .info .info-text h3 {
    text-align: center;
-   width: 1000px;
+   width: 1050px;
    margin: auto;
    padding: 30px;
 }
@@ -33,6 +33,7 @@
    font-size: 22px;
    color: #E73BA5;
    font-weight: 700;
+   margin-bottom: 70px;
 }
 
 /*about section*/
@@ -53,7 +54,7 @@
 
 .about .info p {
    font-size: 22px;
-   width: 1100px;
+   width: 1050px;
    margin: auto;
 }
 
@@ -72,6 +73,66 @@
    width: auto;
    height: 200px;
 }
+
+/*Call section*/
+.call {
+   width: 1050px;
+   margin: auto;
+   border-top: 3px solid #00ced1;
+   border-left: 3px solid #32CD32;
+   border-top-left-radius: 20px;
+   padding: 35px 20px;
+}
+.call .info-call h1{
+   text-align: center;
+   color: #4A5CFF;
+   margin-bottom: 40px;
+   font-size: 50px;
+}
+
+.call .info-call{
+   margin-bottom: 60px;
+}
+
+.call .info-call a{
+   text-decoration: none;
+   color: #E73BA5;
+}
+
+.call .info-call a:hover{
+   color: #00ced1;
+}
+
+.question h2{
+   text-align: center;
+   color: #32CD32;
+   font-size: 40px;
+   margin-bottom: 40px;
+}
+
+.question .question-text p{
+   font-size: 19px;
+   
+}
+
+.question .question-text li::marker{
+   color: #00ced1;
+}
+
+.info-contact .info-contact-text{
+   margin-top: 40px;
+
+}
+
+.info-contact .info-contact-text a{
+   text-decoration: none;
+   color: #E73BA5;
+}
+.info-contact .info-contact-text a:hover{
+   color: #00ced1;
+}
+
+
 /*Footer section*/
 footer {
    padding: 30px;
