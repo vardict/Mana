@@ -69,7 +69,7 @@
    margin-bottom: 25px;
 }
 
-.about .about-team img{
+.about .about-team img {
    width: auto;
    height: 200px;
 }
@@ -83,59 +83,98 @@
    border-top-left-radius: 20px;
    padding: 35px 20px;
 }
-.call .info-call h1{
+
+.call .info-call h1 {
    text-align: center;
    color: #4A5CFF;
    margin-bottom: 40px;
    font-size: 50px;
 }
 
-.call .info-call{
+.call .info-call {
    margin-bottom: 60px;
 }
 
-.call .info-call a{
+.call .info-call a {
    text-decoration: none;
    color: #E73BA5;
 }
 
-.call .info-call a:hover{
+.call .info-call a:hover {
    color: #00ced1;
 }
 
-.question h2{
+/*question article start*/
+.question h2 {
    text-align: center;
    color: #32CD32;
    font-size: 40px;
-   margin-bottom: 40px;
+   margin-bottom: 50px;
 }
 
-.question .question-text p{
-   font-size: 19px;
-   
+/*accordian*/
+.accordion-item:not(:first-of-type) {
+   border: none;
+}
+.accordion .accordion-item{
+   margin: 16px 0;
+   border-radius: 8px;
+   border: none;
 }
 
-.question .question-text li::marker{
-   color: #00ced1;
+.accordion .accordion-item .accordion-item-question{
+   padding: 8px 48px 8px 16px;
+   min-height: 3.5rem;
+   line-height: 1.5rem;
+   display: flex;
+   align-items: center;
+   position: relative;
+   cursor: pointer;
 }
 
-.info-contact .info-contact-text{
-   margin-top: 40px;
-
+.accordion .accordion-item .accordion-item-question::after{
+   content: "\002B";
+   font-size: 30px;
+   font-weight: bold;
+   color: #4A5CFF;
+   position: absolute;
+   right: 25px;
 }
 
-.info-contact .info-contact-text a{
+.accordion .accordion-item .accordion-item-question.active::after{
+   content: "\002D";
+}
+
+.accordion-item .accordion-item-answer{
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+}
+
+.accordion-item .accordion-item-answer .accordion-item-answer-content{
+   padding: 16px;
+   line-height:24px;
+   border-top: 2px solid;
+   border-image: linear-gradient(to right, #32CD32, transparent ) 1;
+}
+
+/*info contact section*/
+.info-contact .info-contact-text {
+   margin-top: 50px;
+}
+
+.info-contact .info-contact-text a {
    text-decoration: none;
    color: #E73BA5;
 }
-.info-contact .info-contact-text a:hover{
+
+.info-contact .info-contact-text a:hover {
    color: #00ced1;
 }
 
-
 /*Footer section*/
 footer {
-   padding: 30px;
+   padding: 40px;
 }
 
 .social {
@@ -149,6 +188,6 @@ footer {
    padding: 0 10px;
 }
 
-.social a:hover{
+.social a:hover {
    color: #00ced1;
 }
