@@ -116,13 +116,14 @@
 .accordion-item:not(:first-of-type) {
    border: none;
 }
-.accordion .accordion-item{
+
+.accordion .accordion-item {
    margin: 16px 0;
    border-radius: 8px;
    border: none;
 }
 
-.accordion .accordion-item .accordion-item-question{
+.accordion .accordion-item .accordion-item-question {
    padding: 8px 48px 8px 16px;
    min-height: 3.5rem;
    line-height: 1.5rem;
@@ -132,7 +133,7 @@
    cursor: pointer;
 }
 
-.accordion .accordion-item .accordion-item-question::after{
+.accordion .accordion-item .accordion-item-question::after {
    content: "\002B";
    font-size: 30px;
    font-weight: bold;
@@ -141,21 +142,21 @@
    right: 25px;
 }
 
-.accordion .accordion-item .accordion-item-question.active::after{
+.accordion .accordion-item .accordion-item-question.active::after {
    content: "\002D";
 }
 
-.accordion-item .accordion-item-answer{
+.accordion-item .accordion-item-answer {
    max-height: 0;
    overflow: hidden;
    transition: max-height 0.2s ease-out;
 }
 
-.accordion-item .accordion-item-answer .accordion-item-answer-content{
+.accordion-item .accordion-item-answer .accordion-item-answer-content {
    padding: 16px;
-   line-height:24px;
+   line-height: 24px;
    border-top: 2px solid;
-   border-image: linear-gradient(to right, #32CD32, transparent ) 1;
+   border-image: linear-gradient(to right, #32CD32, transparent) 1;
 }
 
 /*info contact section*/
@@ -169,6 +170,71 @@
 }
 
 .info-contact .info-contact-text a:hover {
+   color: #00ced1;
+}
+
+
+/*News section start*/
+.news {
+   width: 1050px;
+   margin: auto;
+   margin-bottom: 40px;
+}
+
+.news h1 {
+   text-align: center;
+   color: #E73BA5;
+   font-size: 60px;
+   margin-bottom: 60px;
+}
+
+.news .news-content {
+   padding: 30px 10px 20px 30px;
+   display: inline-block;
+   border-top: 2px solid;
+   border-left: 2px solid;
+   border-top-right-radius: 20%;
+   border-image: linear-gradient(to right, #E73BA5, #00ced1) 1;
+}
+
+.news .news-content .news-title {
+   color: #4A5CFF;
+   font-size: 35px;
+   text-decoration: none;
+}
+
+.news .news-content .news-title:hover {
+   color: #00ced1;
+   font-size: 35px;
+   text-decoration: none;
+}
+
+.news .news-content h3 {
+   margin-bottom: 25px;
+}
+
+.news-content-text .news-button {
+   border: 2px solid #E73BA5;
+   position: relative;
+   left: 890px;
+}
+
+.news-content-text .news-button:hover {
+   border: 2px solid #E73BA5;
+   background-color: #E73BA5;
+   position: relative;
+   left: 890px;
+}
+
+.news-content-text p{
+   margin-bottom: 30px;
+}
+
+.news-content-text .about-us{
+   text-decoration: none;
+   color: #E73BA5;
+}
+.news-content-text .about-us:hover{
    color: #00ced1;
 }
 
