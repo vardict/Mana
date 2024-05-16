@@ -61,29 +61,25 @@
 
     <main>
         <div class="container">
-            <section class="news">
-                <h1>Vesti</h1>
-                <asticle class="news-content">
-                    <div class="news-content-text">
-                        <h3><a href="#" class="news-title">Poziv za ponosne roditelje</a></h3>
-                        <p>
-                            "Ponosni Roditelji" (radni naziv) je dokumentarni film o roditeljima LGBT+ osoba na Balkanu
-                            koji
-                            proizvodi Kolektiv MANA uz finansiranje Rekonstrukcija Ženskog Fonda.
-                            Kolektiv MANA je neprofitna omladinska organizacija koja se bavi promocijom inkluzivnih
-                            praksi u
-                            omladinskom radu. Snimanje ovog filma je prvi projekat Kolektiva MANA. Više o članicama
-                            Kolektiva MANA možete pročitati na stranici <a href="about.html" class="about-us">O
-                            NAMA.</a> Tražimo roditelje LGBT+ osoba iz regiona koji su voljni da govore o svom
-                            iskustvu: O
-                            unutrašnjem, porodičnom i društvenom procesu koji su prošli kada su saznali da im je dete
-                            deo
-                            LGBT+ zajednice.
-                        </p>
-                        <button class="btn news-button">Pročitaj više</button>
-                    </div>
-
-                </asticle>
+            <section class="contact">
+                <article class="contact-info">
+                    <h1>Kontakt:</h1>
+                    <p class="contact-info-text"> 
+                        Možete nas kontaktirati na email adresi 
+                        <a href="mailto:kolektivmana@gmail.com">kolektivmana@gmail.com</a> 
+                        ili popunite sledeći formular:
+                    </p>
+                </article>
+                <article>
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">  
+                        <input type="hidden" name="access_key" value="8234de12-2ff1-4d12-a640-b56240947610">
+                        
+                        <input class="contact-form-input" type="text" name="name" placeholder="Ime" required>
+                        <input class="contact-form-input" type="text" name="email" placeholder="Email" required>
+                        <textarea class="contact-form-input" name="message" placeholder="Poruka" required></textarea>
+                        <button class="btn contact-form-button">Poslati</button>
+                    </form>
+                </article>
             </section>
         </div>
     </main><!--Main end-->

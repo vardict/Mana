@@ -63,7 +63,7 @@
    border-left: 3px solid;
    border-top-left-radius: 20px;
    padding: 25px 25px 10px 25px;
-  height: 550px;
+   height: 550px;
 }
 
 .about .about-team img {
@@ -71,7 +71,7 @@
    height: 200px;
 }
 
-.about-team .about-name{
+.about-team .about-name {
    margin-top: 75px;
 }
 
@@ -192,10 +192,9 @@
 .news .news-content {
    padding: 30px 10px 20px 30px;
    display: inline-block;
-   border-top: 2px solid;
-   border-left: 2px solid;
-   border-top-right-radius: 20%;
-   border-image: linear-gradient(to right, #E73BA5, #00ced1) 1;
+   border-top: 3px solid #00ced1;
+   border-left: 3px solid #E73BA5;
+   border-top-left-radius: 20px;
 }
 
 .news .news-content .news-title {
@@ -227,16 +226,84 @@
    left: 890px;
 }
 
-.news-content-text p{
+.news-content-text p {
    margin-bottom: 30px;
 }
 
-.news-content-text .about-us{
+.news-content-text .about-us {
    text-decoration: none;
    color: #E73BA5;
 }
-.news-content-text .about-us:hover{
+
+.news-content-text .about-us:hover {
    color: #00ced1;
+}
+
+/*contact section start*/
+
+.contact {
+   text-align: center;
+}
+
+.contact .contact-info h1 {
+   text-align: center;
+   font-size: 60px;
+   color: #E73BA5;
+   margin-bottom: 50px;
+}
+
+/*Contact form start*/
+.contact-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+   margin-bottom: 30px;
+}
+
+.contact-form .contact-form-input {
+   width: 400px;
+   height: 50px;
+   border: 2px solid #4A5CFF;
+   border-radius: 10px;
+   padding-left: 15px;
+   font-weight: 500;
+   box-shadow: 1px 1px 7px 1px #4A5CFF;
+}
+
+.contact-info .contact-info-text {
+   margin-bottom: 40px;
+}
+
+.contact-info .contact-info-text a {
+   text-decoration: none;
+   color: #E73BA5;
+}
+
+.contact-info .contact-info-text a:hover {
+   text-decoration: none;
+   color: #00ced1;
+}
+
+.contact-form textarea {
+   height: 160px !important;
+   padding-top: 15px;
+}
+
+.contact-form .contact-form-input:focus {
+   color: #E73BA5;
+}
+
+.contact-form .contact-form-button {
+   display: flex;
+   border: 3px solid #00ced1;
+   padding: 5px 25px;
+   box-shadow: 1px 1px 3px 0.5px #00ced1;
+   margin-top: 15px;
+}
+
+.contact-form .contact-form-button:hover {
+   background-color: #00ced1;
 }
 
 /*Footer section*/
