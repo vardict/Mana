@@ -19,8 +19,29 @@
    margin-right: 25px;
 }
 
-.navbar-nav .nav-item a:hover{
+.navbar-nav .nav-item a:hover {
    color: #00ced1;
+}
+
+/*Hamburger button*/
+.navbar .navbar-toggler span {
+   border: transparent;
+   width: 30px;
+   height: 3px;
+   margin-bottom: 5px;
+   display: block;
+   background-color: #4A5CFF;
+   border-radius: 3px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+   padding: 5px 10px;
+   margin: 0;
+   line-height: 34px;
+   color: #4A5CFF;
+   text-align: center;
+   border-bottom: 2px solid transparent;
+   font-size: 22px;
 }
 
 /*about section*/
@@ -31,7 +52,7 @@
 
 .about .info h1 {
    text-align: center;
-   font-size: 35px;
+   font-size: 40px;
    margin-bottom: 20px;
    color: #E73BA5;
 }
@@ -59,19 +80,18 @@
    margin-bottom: 15px;
    text-align: center;
 }
-.about-team .about-name h2{
+
+.about-team .about-name h2 {
    font-size: 32px;
 }
 
-.about-team .about-text{
+.about-team .about-text {
    text-align: center;
 }
 
 /*Info section*/
 .info .info-text h3 {
    text-align: center;
-   /* width: 1050px;
-   margin: auto; */
    padding: 15px;
 }
 
@@ -96,11 +116,11 @@
 .call .info-call h1 {
    color: #4A5CFF;
    margin-bottom: 30px;
-   font-size: 35px;
+   font-size: 32px;
 }
 
 .call .info-call .line-paragraph {
-   font-weight: 700;  
+   font-weight: 700;
    color: #E73BA5;
 }
 
@@ -195,7 +215,7 @@
 .news h1 {
    text-align: center;
    color: #E73BA5;
-   font-size: 50px;
+   font-size: 40px;
    margin-bottom: 40px;
 }
 
@@ -235,6 +255,11 @@
    background-color: #E73BA5;
 }
 
+.news-content-text .news-button a{
+   color: black;
+   text-decoration: none;
+}
+
 .news-content-text p {
    margin-bottom: 40px;
    text-align: center;
@@ -256,7 +281,7 @@
 
 .contact .contact-info h1 {
    text-align: center;
-   font-size: 50px;
+   font-size: 40px;
    color: #E73BA5;
    margin-bottom: 35px;
 }
