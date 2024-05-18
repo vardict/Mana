@@ -26,6 +26,12 @@
     .news-content-text .news-button {
         left: 170px;
     }
+
+    /*Contact form section*/
+    .contact-form .contact-form-input {
+        width: 400px;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -138,6 +144,13 @@
         color: #00ced1;
     }
 
+    /*Contact section start*/
+
+    .contact .contact-info h1 {
+        font-size: 60px;
+    }
+
+
 }
 
 @media (min-width:1200px) {
@@ -161,8 +174,8 @@
         height: 580px;
     }
 
-     /*News section start*/
-     .news {
+    /*News section start*/
+    .news {
         width: 1050px;
         margin: auto;
     }
