@@ -21,6 +21,11 @@
     .about .info h1 {
         font-size: 50px;
     }
+
+    /*News section*/
+    .news-content-text .news-button {
+        left: 170px;
+    }
 }
 
 @media(min-width:768px) {
@@ -28,6 +33,11 @@
     /*Call section*/
     .call {
         width: 750px;
+    }
+
+    /*News section*/
+    .news-content-text .news-button {
+        left: 270px;
     }
 }
 
@@ -97,8 +107,35 @@
         margin-top: 0px;
     }
 
-    .about-team{
+    .about-team {
         height: 740px;
+    }
+
+    /*News section start*/
+    .news {
+        width: 900px;
+        margin: auto;
+    }
+
+    .news h1 {
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+
+    .news .news-content h3 {
+        text-align: start;
+    }
+
+    .news-content-text .news-button {
+        left: 730px;
+    }
+
+    .news-content-text p {
+        text-align: start;
+    }
+
+    .news-content-text .about-us:hover {
+        color: #00ced1;
     }
 
 }
@@ -119,7 +156,18 @@
     .about-team .about-name {
         margin-top: 70px;
     }
-    .about-team{
+
+    .about-team {
         height: 580px;
+    }
+
+     /*News section start*/
+     .news {
+        width: 1050px;
+        margin: auto;
+    }
+
+    .news-content-text .news-button {
+        left: 885px;
     }
 }

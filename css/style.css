@@ -189,16 +189,14 @@
 
 /*News section start*/
 .news {
-   width: 1050px;
-   margin: auto;
    margin-bottom: 40px;
 }
 
 .news h1 {
    text-align: center;
    color: #E73BA5;
-   font-size: 60px;
-   margin-bottom: 60px;
+   font-size: 50px;
+   margin-bottom: 40px;
 }
 
 .news .news-content {
@@ -223,13 +221,14 @@
 
 .news .news-content h3 {
    margin-bottom: 25px;
+   text-align: center;
 }
 
 .news-content-text .news-button {
    border: 3px solid #E73BA5;
    box-shadow: 1px 1px 3px 0.5px #E73BA5;
    position: relative;
-   left: 890px;
+   left: 65px;
 }
 
 .news-content-text .news-button:hover {
@@ -238,6 +237,7 @@
 
 .news-content-text p {
    margin-bottom: 30px;
+   text-align: center;
 }
 
 .news-content-text .about-us {
