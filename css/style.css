@@ -71,9 +71,11 @@
 }
 
 .about .about-team img {
-   width: auto;
-   height: 180px;
-   margin-left: 55px;
+   max-width: 200px;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .about-team .about-name {
