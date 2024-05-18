@@ -8,6 +8,19 @@
     .call {
         width: 560px;
     }
+
+    /*About section*/
+    .about-team .about-name {
+        margin-top: 75px;
+    }
+
+    .about-team .about-name h2 {
+        font-size: 42px;
+    }
+
+    .about .info h1 {
+        font-size: 50px;
+    }
 }
 
 @media(min-width:768px) {
@@ -60,6 +73,33 @@
         font-weight: 500;
     }
 
+    /*About section*/
+    .about {
+        margin-bottom: 70px;
+    }
+
+    .about .info {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .about .info h1 {
+        font-size: 60px;
+    }
+
+    .about .info p {
+        font-size: 22px;
+        width: 900px;
+        margin: auto;
+    }
+
+    .about-team .about-name {
+        margin-top: 0px;
+    }
+
+    .about-team{
+        height: 740px;
+    }
 
 }
 
@@ -73,5 +113,13 @@
     /*Call section*/
     .call {
         width: 1050px;
+    }
+
+    /*About section*/
+    .about-team .about-name {
+        margin-top: 70px;
+    }
+    .about-team{
+        height: 580px;
     }
 }
