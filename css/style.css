@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+/*  font-family: "Madimi One", sans-serif;*/
+
 * {
    font-family: 'Cooper Hewitt';
    font-size: 18px;
@@ -14,6 +17,7 @@
 }
 
 .navbar-nav .nav-item a {
+   font-family: "Madimi One", sans-serif;
    color: #E73BA5;
    font-size: 20px;
    margin-right: 25px;
@@ -44,6 +48,59 @@
    font-size: 22px;
 }
 
+/*Card section*/
+.cards {
+   margin-bottom: 70px;
+}
+
+.cards .card {
+   padding: 20px 10px 10px 20px;
+   border: none;
+   border-radius: 0;
+   border-top: 3px solid #00ced1;
+   border-left: 3px solid #32CD32;
+   border-top-left-radius: 20px;
+}
+
+.card .card-title {
+   font-family: "Madimi One", sans-serif;
+   text-decoration: none;
+   color: #4A5CFF;
+   font-size: 30px;
+}
+
+.card .card-title:hover {
+   color: #00ced1;
+}
+
+.card h2 {
+   margin-bottom: 12px;
+}
+
+.card .card-button {
+   text-align: right;
+
+}
+
+.card .card-button a {
+   text-decoration: none;
+   color: #000;
+   border: 2px solid #E73BA5;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 1px 1px 3px 0.5px #E73BA5;
+}
+
+.card .card-button a:hover {
+   background-color: #E73BA5;
+}
+
+.card .card-button a:hover {
+   color: #fff;
+   text-decoration: none;
+}
+
+
 /*about section*/
 
 .about .info {
@@ -51,6 +108,7 @@
 }
 
 .about .info h1 {
+   font-family: "Madimi One", sans-serif;
    text-align: center;
    font-size: 40px;
    margin-bottom: 20px;
@@ -84,6 +142,7 @@
 }
 
 .about-team .about-name h2 {
+   font-family: "Madimi One", sans-serif;
    font-size: 32px;
 }
 
@@ -93,21 +152,17 @@
 
 /*Info section*/
 .info .info-text h3 {
+   font-family: "Madimi One", sans-serif;
    text-align: center;
    padding: 15px;
 }
-
-.info .info-text p {
-   text-align: center;
-   font-size: 20px;
-   color: #E73BA5;
-   font-weight: 700;
-   margin-bottom: 50px;
+.info .info-text{
+   margin-bottom: 60px;
 }
 
 /*Call section*/
 .call {
-   width: 310px;
+   width: 290px;
    margin: auto;
    border-top: 3px solid #00ced1;
    border-left: 3px solid #32CD32;
@@ -116,9 +171,11 @@
 }
 
 .call .info-call h1 {
+   font-family: "Madimi One", sans-serif;
+   text-align: start;
    color: #4A5CFF;
    margin-bottom: 30px;
-   font-size: 32px;
+   font-size: 29px;
 }
 
 .call .info-call .line-paragraph {
@@ -141,9 +198,10 @@
 
 /*question article start*/
 .question h2 {
+   font-family: "Madimi One", sans-serif;
    text-align: center;
    color: #32CD32;
-   font-size: 40px;
+   font-size: 35px;
    margin-bottom: 50px;
 }
 
@@ -215,6 +273,7 @@
 }
 
 .news h1 {
+   font-family: "Madimi One", sans-serif;
    text-align: center;
    color: #E73BA5;
    font-size: 40px;
@@ -225,25 +284,25 @@
    padding: 30px 10px 20px 30px;
    display: inline-block;
    border-top: 3px solid #00ced1;
-   border-left: 3px solid #E73BA5;
+   border-left: 3px solid #32CD32;
    border-top-left-radius: 20px;
 }
 
 .news .news-content .news-title {
+   font-family: "Madimi One", sans-serif;
    color: #4A5CFF;
-   font-size: 35px;
+   font-size: 30px;
    text-decoration: none;
 }
 
 .news .news-content .news-title:hover {
    color: #00ced1;
-   font-size: 35px;
-   text-decoration: none;
 }
 
 .news .news-content h3 {
+   font-family: "Madimi One", sans-serif;
    margin-bottom: 25px;
-   text-align: center;
+   text-align: start;
 }
 
 .news-content-text .news-button {
@@ -257,14 +316,19 @@
    background-color: #E73BA5;
 }
 
-.news-content-text .news-button a{
+.news-content-text .news-button a {
    color: black;
+   text-decoration: none;
+}
+
+.news-content-text .news-button a:hover {
+   color: #fff;
    text-decoration: none;
 }
 
 .news-content-text p {
    margin-bottom: 40px;
-   text-align: center;
+   /* text-align: center; */
 }
 
 .news-content-text .about-us {
@@ -282,6 +346,7 @@
 }
 
 .contact .contact-info h1 {
+   font-family: "Madimi One", sans-serif;
    text-align: center;
    font-size: 40px;
    color: #E73BA5;
@@ -333,14 +398,15 @@
 
 .contact-form .contact-form-button {
    display: flex;
-   border: 3px solid #00ced1;
+   border: 3px solid #E73BA5;
    padding: 5px 25px;
-   box-shadow: 1px 1px 3px 0.5px #00ced1;
+   box-shadow: 1px 1px 3px 0.5px #E73BA5;
    margin-top: 20px;
 }
 
 .contact-form .contact-form-button:hover {
-   background-color: #00ced1;
+   background-color: #E73BA5;
+   color: #fff;
 }
 
 /*Footer section*/
