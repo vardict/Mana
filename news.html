@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="32x32" href="">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="sass/style.css" rel="stylesheet">
 
     <title>Kolektiv MANA</title>
 
@@ -24,10 +23,18 @@
     <link rel="icon" type="image/png" href="image/android-icon-192x192.png">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CM9PYPLK1V"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CM9PYPLK1V');
+</script>
+
 <body>
-
     <header>
-
         <div class="container">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
@@ -64,9 +71,28 @@
 
     <main>
 
-        <section class="news">
-            <div class="container">
+        <div class="container">
+            <section class="news">
                 <h1>Vesti</h1>
+                <article class="news-content">
+                    <div class="news-content-text">
+                        <h3><a href="news_02.html" class="news-title">
+                                Radionica zvučnih pejzaža - MANA na Novosadskoj nedelj ponosa
+                            </a></h3>
+                        <p>
+                            U okviru Novosadske nedelje ponosa, Milica i Dina su ispred MANE održale kreativnu radionicu
+                            LGBT+ soundscapes.
+                            Soundscapes tj zvučni pejzaži je dramska tehnika koja se oslanja isključivo na zvuk da
+                            dočara
+                            scene,
+                            i uz pomoć nje smo priredili performanse sa kvir tematikom.
+                            U prvom delu radionice, upoznali smo se sa različitim načinima kako možemo da proizvodimo
+                            zvuk.
+                        </p>
+                        <button class="btn news-button"><a href="news_02.html">Pročitaj više</a></button>
+                    </div>
+                </article><!--.article-end-->
+
                 <article class="news-content">
                     <div class="news-content-text">
                         <h3><a href="news_01.html" class="news-title">Poziv za ponosne roditelje</a></h3>
@@ -77,19 +103,17 @@
                             Kolektiv MANA je neprofitna omladinska organizacija koja se bavi promocijom inkluzivnih
                             praksi u
                             omladinskom radu. Snimanje ovog filma je prvi projekat Kolektiva MANA. Više o članicama
-                            Kolektiva MANA možete pročitati na stranici <a href="about.html" class="about-us">O
-                                NAMA.</a> Tražimo roditelje LGBT+ osoba iz regiona koji su voljni da govore o svom
-                            iskustvu: O
-                            unutrašnjem, porodičnom i društvenom procesu koji su prošli kada su saznali da im je dete
-                            deo
-                            LGBT+ zajednice.
+                            Kolektiva MANA možete pročitati na stranici
+                            <a href="about.html" class="about-us">O NAMA.</a>
+                            Tražimo roditelje LGBT+ osoba iz regiona koji su voljni da govore o svom
+                            iskustvu: O unutrašnjem, porodičnom i društvenom procesu koji su prošli
+                            kada su saznali da im je dete deo LGBT+ zajednice.
                         </p>
                         <button class="btn news-button"><a href="news_01.html">Pročitaj više</a></button>
                     </div>
-
-                </article>
-            </div>
-        </section>
+                </article><!--.article-end-->
+            </section><!--section news end-->
+        </div><!--.container end-->
 
     </main><!--Main end-->
 

@@ -1,0 +1,126 @@
+.about {
+    margin-bottom: 0;
+    .info {
+        margin-bottom: 50px;
+
+        h1 {
+            font-family: $font-family-header;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: $primary;
+        }
+
+        p {
+            padding: 15px;
+            text-align: center;
+        }
+    }//info end
+
+    .about-team {
+        border-top: 3px solid;
+        border-left: 3px solid;
+        border-top-left-radius: 20px;
+        padding: 25px 25px 10px 25px;
+        // margin-bottom: 40px;
+
+        img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .about-name {
+            margin-bottom: 15px;
+            text-align: center;
+
+            h2 {
+                font-family: $font-family-header;
+                font-size: 32px;
+            }
+        }
+
+        .about-text {
+            text-align: center;
+        }
+    }//.about team end
+}
+
+@media(min-width:576px) {
+
+    /*About section*/
+    .about {
+        .info h1 {
+            font-size: 50px;
+        }
+
+        .about-team {
+            .about-name {
+                margin-top: 75px;
+
+                h2 {
+                    font-size: 42px;
+                    margin-top: 120px;
+
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width:992px) {
+
+    /*About section*/
+    .about {
+        margin-bottom: 0px;
+
+        .info {
+            text-align: center;
+            margin-bottom: 100px;
+
+            h1 {
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 22px;
+                width: 900px;
+                margin: auto;
+            }
+        }//.info end
+
+        .about-team {
+            height: 840px;
+
+            .about-name {
+                margin-top: 0px;
+
+                h2 {
+                    margin-top: 0;
+                }
+            }
+        } //.about-team end
+    }
+
+}
+
+@media(min-width:1200px) {
+
+    /*About section*/
+    .about {
+        .about-team {
+            height: 580px;
+
+            img {
+                max-width: 160px;
+            }
+
+            .about-name {
+                margin-top: 93px;
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 /*  font-family: "Madimi One", sans-serif;*/
 
-* {
+/* * {
    font-family: 'Cooper Hewitt';
    font-size: 18px;
 }
@@ -28,7 +28,7 @@
 }
 
 /*Hamburger button*/
-.navbar .navbar-toggler span {
+/* .navbar .navbar-toggler span {
    border: transparent;
    width: 30px;
    height: 3px;
@@ -36,9 +36,9 @@
    display: block;
    background-color: #4A5CFF;
    border-radius: 3px;
-}
+} */
 
-.navbar .navbar-nav .nav-item .nav-link {
+/* .navbar .navbar-nav .nav-item .nav-link {
    padding: 5px 10px;
    margin: 0;
    line-height: 34px;
@@ -46,14 +46,14 @@
    text-align: center;
    border-bottom: 2px solid transparent;
    font-size: 22px;
-}
+} */ 
 
 /*Card section*/
-.cards {
+/* .cards {
    margin-bottom: 70px;
-}
+} */
 
-.cards .card {
+/* .cards .card {
    padding: 20px 10px 10px 20px;
    border: none;
    border-radius: 0;
@@ -98,11 +98,11 @@
 .card .card-button a:hover {
    color: #fff;
    text-decoration: none;
-}
+} */
 
 
 /*about section*/
-
+/* 
 .about .info {
    margin-bottom: 50px;
 }
@@ -148,20 +148,20 @@
 
 .about-team .about-text {
    text-align: center;
-}
+} */
 
 /*Info section*/
-.info .info-text h3 {
+/* .info .info-text h3 {
    font-family: "Madimi One", sans-serif;
    text-align: center;
    padding: 15px;
 }
 .info .info-text{
    margin-bottom: 60px;
-}
+} */
 
 /*Call section*/
-.call {
+/* .call {
    width: 290px;
    margin: auto;
    border-top: 3px solid #00ced1;
@@ -194,19 +194,19 @@
 
 .call .info-call a:hover {
    color: #00ced1;
-}
+} */
 
 /*question article start*/
-.question h2 {
+/* .question h2 {
    font-family: "Madimi One", sans-serif;
    text-align: center;
    color: #32CD32;
    font-size: 35px;
    margin-bottom: 50px;
-}
+} */
 
 /*accordian*/
-.accordion-item:not(:first-of-type) {
+/* .accordion-item:not(:first-of-type) {
    border: none;
 }
 
@@ -214,9 +214,9 @@
    margin: 16px 0;
    border-radius: 8px;
    border: none;
-}
+} */
 
-.accordion .accordion-item .accordion-item-question {
+/* .accordion .accordion-item .accordion-item-question {
    padding: 8px 48px 8px 16px;
    min-height: 3.5rem;
    line-height: 1.5rem;
@@ -233,9 +233,9 @@
    color: #4A5CFF;
    position: absolute;
    right: 25px;
-}
+} */
 
-.accordion .accordion-item .accordion-item-question.active::after {
+/* .accordion .accordion-item .accordion-item-question.active::after {
    content: "\002D";
 }
 
@@ -250,10 +250,10 @@
    line-height: 24px;
    border-top: 2px solid;
    border-image: linear-gradient(to right, #32CD32, transparent) 1;
-}
+} */
 
 /*info contact section*/
-.info-contact .info-contact-text {
+/* .info-contact .info-contact-text {
    margin-top: 50px;
 }
 
@@ -264,11 +264,11 @@
 
 .info-contact .info-contact-text a:hover {
    color: #00ced1;
-}
+} */
 
 
 /*News section start*/
-.news {
+/* .news {
    margin-bottom: 40px;
 }
 
@@ -329,19 +329,19 @@
 .news-content-text p {
    margin-bottom: 40px;
    /* text-align: center; */
-}
 
-.news-content-text .about-us {
+
+/* .news-content-text .about-us {
    text-decoration: none;
    color: #E73BA5;
-}
+} */
 
-.news-content-text .about-us:hover {
+/* .news-content-text .about-us:hover {
    color: #00ced1;
-}
+}  */
 
 /*contact section start*/
-.contact {
+/* .contact {
    text-align: center;
 }
 
@@ -351,18 +351,18 @@
    font-size: 40px;
    color: #E73BA5;
    margin-bottom: 35px;
-}
+} */
 
 /*Contact form start*/
-.contact-form {
+/* .contact-form {
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 15px;
    margin-bottom: 20px;
-}
+} */
 
-.contact-form .contact-form-input {
+/* .contact-form .contact-form-input {
    width: 280px;
    height: 50px;
    border: 2px solid #4A5CFF;
@@ -407,10 +407,10 @@
 .contact-form .contact-form-button:hover {
    background-color: #E73BA5;
    color: #fff;
-}
+} */
 
 /*Footer section*/
-footer {
+/* footer {
    padding: 40px;
 }
 
@@ -427,4 +427,4 @@ footer {
 
 .social a:hover {
    color: #00ced1;
-}
+} */

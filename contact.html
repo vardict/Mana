@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="32x32" href="">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="sass/style.css" rel="stylesheet">
 
     <title>Kolektiv MANA</title>
 
@@ -23,6 +22,16 @@
     <meta name="application-name" content="Kolektiv Mana">
     <link rel="icon" type="image/png" href="image/android-icon-192x192.png">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CM9PYPLK1V"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CM9PYPLK1V');
+</script>
+
 
 <body>
 
@@ -67,24 +76,24 @@
             <section class="contact">
                 <article class="contact-info">
                     <h1>Kontakt:</h1>
-                    <p class="contact-info-text"> 
-                        Možete nas kontaktirati na email adresi 
-                        <a href="mailto:kolektivmana@gmail.com">kolektivmana@gmail.com</a> 
+                    <p class="contact-info-text">
+                        Možete nas kontaktirati na email adresi
+                        <a href="mailto:kolektivmana@gmail.com">kolektivmana@gmail.com</a>
                         ili popunite sledeći formular:
                     </p>
                 </article>
                 <article>
-                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">  
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="8234de12-2ff1-4d12-a640-b56240947610">
-                        
+
                         <input class="contact-form-input" type="text" name="name" placeholder="Ime" required>
                         <input class="contact-form-input" type="text" name="email" placeholder="Email" required>
                         <textarea class="contact-form-input" name="message" placeholder="Poruka" required></textarea>
                         <button class="btn contact-form-button">Poslati</button>
                     </form>
                 </article>
-            </section>
-        </div>
+            </section><!--contact section end-->
+        </div><!--.container end-->
     </main><!--Main end-->
 
     <footer>

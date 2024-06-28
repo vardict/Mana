@@ -1,0 +1,21 @@
+/*Footer section*/
+footer {
+    // border-top: 2px solid $secondary;
+    // margin-top: 80px;
+    padding: 40px;
+
+    .social {
+        text-align: center;
+        
+        a {
+            color: $link-color;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 0 10px;
+
+            &:hover {
+                color: $link-hover-color;
+            }
+        }
+    }
+}

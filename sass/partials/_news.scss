@@ -1,0 +1,114 @@
+/*News section start*/
+.news {
+    // margin-bottom: 40px;
+
+    h1 {
+        font-family: $font-family-header;
+        text-align: center;
+        color: $primary;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .news-content {
+        padding: 40px 10px 20px 30px;
+        display: inline-block;
+        border-top: 3px solid $secondary;
+        border-left: 3px solid $success;
+        border-top-left-radius: 20px;
+        margin-bottom: 40px;
+
+        .news-title {
+            font-family: $font-family-header;
+            color: $blue;
+            font-size: 30px;
+            text-decoration: none;
+
+            &:hover {
+                color: $link-hover-color;
+            }
+        }
+
+        h3 {
+            font-family: $font-family-header;
+            margin-bottom: 25px;
+            text-align: start;
+        }
+    }//.news content end
+
+    .news-content-text {
+        p {
+            margin-bottom: 50px;
+        }
+
+        .news-button {
+            border: 3px solid $primary;
+            box-shadow: 1px 1px 3px 0.5px $primary;
+            margin-left: 60px;
+
+            &:hover {
+                background-color: $primary;
+            }
+
+            a {
+                color: $dark;
+                text-decoration: none;
+
+                &:hover {
+                    color: $light;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .about-us {
+            text-decoration: none;
+            color: $link-color;
+
+            &:hover {
+                color: $link-hover-color;
+            }
+        }
+
+    }
+}//.news end
+
+@media(min-width:576px){
+
+    .news .news-content-text .news-button{
+        margin-left: 0px;
+        float: right;
+    }
+}
+
+@media(min-width:992px){
+    .news {
+        width: 900px;
+        margin: auto;
+
+        h1 {
+            font-size: 60px;
+            margin-bottom: 60px;
+        }
+
+        .news-content .news-title{
+            text-align: start;
+            font-size: 32px;
+        }
+
+        .news-content-text p {
+            text-align: start;
+        }
+
+    }
+}
+
+@media(min-width:1200px){
+    .news {
+        width: 1050px;
+
+        .news-content{
+            width: 1050px;
+        }
+    }
+}

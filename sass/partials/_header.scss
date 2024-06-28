@@ -1,0 +1,62 @@
+* {
+    font-family: $font-family-base;
+    font-size: 18px;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.navbar {
+    margin-bottom: 40px;
+
+    .main-img {
+        fill: $primary;
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                padding: 5px 10px;
+                margin: 0;
+                line-height: 34px;
+                color: $blue;
+                text-align: center;
+                border-bottom: 2px solid transparent;
+                font-size: 22px;
+            }
+
+            a {
+                font-family: $font-family-header;
+                color: $primary;
+                font-size: 20px;
+                margin-right: 25px;
+
+                &:hover {
+                    color: $link-hover-color;
+                }
+            }
+        }
+    }
+
+    /*Hamburger button*/
+    .navbar-toggler span {
+        border: transparent;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+        display: block;
+        background-color: $blue;
+        border-radius: 3px;
+    }
+}
+
+//NE zna sta je ovo
+// @media(min-width:576px){
+//     .main .main-img {
+//         width: 500px;
+//         height: 500px;
+//     }
+// }

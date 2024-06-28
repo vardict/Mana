@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="32x32" href="">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="sass/style.css" rel="stylesheet" type="text/css">
 
     <title>Kolektiv MANA</title>
 
@@ -24,10 +23,18 @@
     <link rel="icon" type="image/png" href="image/android-icon-192x192.png">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CM9PYPLK1V"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CM9PYPLK1V');
+</script>
+
 <body>
-
     <header>
-
         <div class="container">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
@@ -72,12 +79,25 @@
                     </h3>
                 </article>
             </section><!--.info end-->
-        </div>
+        </div><!--.container end-->
 
-        <section class="cards">
-            <div class="container">
-
+        <div class="container">
+            <section class="cards">
                 <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <article class="card">
+                            <h2><a href="news_02.html" class="card-title">
+                                    Radionica zvučnih pejzaža
+                                </a></h2>
+                            <p class="card-text">
+                                U okviru Novosadske nedelje ponosa, Milica i Dina su ispred MANE održale kreativnu
+                                radionicu LGBT+ soundscapes. Soundscapes tj zvučni pejzaži je dramska tehnika koja se
+                                oslanja isključivo na zvuk da dočara
+                                scene...
+                            </p>
+                            <button class="btn card-button"><a href="news_02.html">Pročitaj više</a></button>
+                        </article>
+                    </div><!--.col end-->
                     <div class="col-12 col-lg-6">
                         <article class="card">
                             <h2><a href="news_01.html" class="card-title">Poziv za ponosne roditelje</a></h2>
@@ -87,26 +107,10 @@
                             </p>
                             <button class="btn card-button"><a href="news_01.html">Pročitaj više</a></button>
                         </article>
-                    </div>
-                    <!-- <div class="col-12 col-lg-6">
-                        <article class="card">
-                            <h3><a href="news_01.html" class="card-title">Poziv za ponosne roditelje</a></h3>
-                            <p class="card-text">
-                                "Ponosni Roditelji" (radni naziv) je dokumentarni film o roditeljima LGBT+ osoba
-                                na Balkanu koji proizvodi Kolektiv MANA uz finansiranje Rekonstrukcija Ženskog Fonda...
-                            </p>
-                            <button class="btn card-button"><a href="news_01.html">Pročitaj više</a></button>
-                        </article>
-                    </div> -->
-                </div>
-
-
-
-
-
-
-            </div><!--.container end-->
-        </section><!--.call section end-->
+                    </div><!--.col end-->
+                </div><!--.row end-->
+            </section><!--.call section end-->
+        </div><!--.container end-->
     </main><!--Main end-->
 
     <footer>

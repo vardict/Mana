@@ -1,0 +1,130 @@
+// main {
+//     margin-bottom: 130px;
+// }
+
+/*Info section*/
+.info {
+    .info-text {
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: $font-family-header;
+            text-align: center;
+            padding: 15px;
+        }
+    }
+}
+
+/*Cards section*/
+.cards {
+    margin-bottom: 70px;
+
+    .card {
+        padding: 25px 15px 15px 25px;
+        border: none;
+        border-radius: 0;
+        border-top: 3px solid $secondary;
+        border-left: 3px solid $success;
+        border-top-left-radius: 20px;
+        margin-bottom: 30px;
+
+        .card-title {
+            font-family: $font-family-header;
+            text-decoration: none;
+            color: $blue;
+            font-size: 27px;
+
+            &:hover {
+                color: $secondary;
+            }
+        }
+
+        .card-text {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        //Button
+        .card-button {
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: $black;
+                border: 2px solid $primary;
+                border-radius: 5px;
+                padding: 10px;
+                box-shadow: 1px 1px 3px 0.5px $primary;
+
+                &:hover {
+                    background-color: $primary;
+                    color: $light;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        //button end
+    }
+
+    //.card end
+}
+
+//cards section end
+
+
+@media (min-width:576px) {
+    .cards .card .card-button {
+        text-align: right;
+    }
+
+}
+
+@media (min-width:576px) {
+    .cards {
+        .card {
+            .card-title {
+                font-size: 30px;
+            }
+
+            .card-button {
+                text-align: right;
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+
+    /*Info section*/
+    .info .info-text h2 {
+        text-align: center;
+        width: 900px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .cards {
+        .card {
+            height: 340px;
+        }
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    /*Info section*/
+    .info .info-text h2 {
+        width: 1050px;
+    }
+
+    .cards {
+        .card {
+            height: 270px;
+        }
+    }
+}
