@@ -1,0 +1,104 @@
+.active-compas {
+  width: 290px;
+  margin: auto;
+  border-top: 3px solid $secondary;
+  border-left: 3px solid $success;
+  border-top-left-radius: 20px;
+  padding: 35px 20px;
+
+  .active-compas-info {
+    h1 {
+      font-family: $font-family-header;
+      text-align: start;
+      color: $blue;
+      margin-bottom: 30px;
+      font-size: 29px;
+    }
+
+    p {
+      a {
+        text-decoration: none;
+        color: $primary;
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+
+    .buttons {
+      a {
+        text-decoration: none;
+        button {
+          padding: 0;
+          padding-bottom: 10px;
+          img {
+            height: auto;
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .active-compas {
+    padding: 35px;
+    width: 520px;
+
+    .active-compas-info {
+      .buttons {
+        a {
+          button {
+            padding-right: 15px;
+            img {
+              width: 180px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .active-compas {
+    width: 680px;
+
+    .active-compas-info {
+      h1 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .active-compas {
+    width: 900px;
+
+    .active-compas-info {
+      .buttons {
+        a {
+          button {
+            img {
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .active-compas {
+    width: 1050px;
+
+    .active-compas-info {
+      h1 {
+        font-size: 42px;
+      }
+    }
+  }
+}
