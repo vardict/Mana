@@ -19,3 +19,44 @@ accordionItemQuestion.forEach(accordionItemQuestion => {
     });
 });
 
+
+//Gallery
+// document.addEventListener("DOMContentLoaded", () => {
+//     const galleryItems = document.querySelectorAll(".gallery-item");
+//     const modal = new bootstrap.Modal(document.getElementById("galleryModal"));
+//     const modalImage = document.getElementById("modalImage");
+//     const prevButton = document.getElementById("prevImage");
+//     const nextButton = document.getElementById("nextImage");
+
+//     let currentIndex = 0;
+//     const images = Array.from(galleryItems).map(item => item.href);
+
+//     // Open Modal on Click
+//     galleryItems.forEach((item, index) => {
+//         item.addEventListener("click", (event) => {
+//             event.preventDefault(); // Prevent default link behavior
+//             currentIndex = index;
+//             updateModalImage();
+//             modal.show();
+//         });
+//     });
+
+//     // Update Modal Image
+//     function updateModalImage() {
+//         modalImage.src = images[currentIndex];
+//     }
+
+//     // Navigate to Previous Image
+//     prevButton.addEventListener("click", () => {
+//         currentIndex = (currentIndex - 1 + images.length) % images.length;
+//         updateModalImage();
+//     });
+
+//     // Navigate to Next Image
+//     nextButton.addEventListener("click", () => {
+//         currentIndex = (currentIndex + 1) % images.length;
+//         updateModalImage();
+//     });
+// });
+
+

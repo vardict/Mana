@@ -261,12 +261,12 @@ select {
   word-wrap: normal;
 }
 
-button,
+/* button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -324,7 +324,7 @@ progress {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 [type=search]::-webkit-search-decoration {
@@ -9377,27 +9377,14 @@ img {
   }
 }
 .about {
-  margin-bottom: 0;
-}
-.about .info {
-  margin-bottom: 50px;
-}
-.about .info h1 {
-  font-family: "Madimi One", sans-serif;
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #E73BA5;
-}
-.about .info p {
-  padding: 15px;
-  text-align: center;
+  margin-bottom: 0px;
 }
 .about .about-team {
   border-top: 3px solid;
   border-left: 3px solid;
   border-top-left-radius: 20px;
   padding: 25px 25px 10px 25px;
+  margin-bottom: 30px;
 }
 .about .about-team img {
   max-width: 200px;
@@ -9412,50 +9399,52 @@ img {
 }
 .about .about-team .about-name h2 {
   font-family: "Madimi One", sans-serif;
-  font-size: 32px;
+  font-size: 40px;
+}
+.about .about-team .about-name h5 {
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 .about .about-team .about-text {
-  text-align: center;
+  text-align: justify;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 576px) {
   /*About section*/
-  .about .info h1 {
+  .about .about-team .about-name h2 {
     font-size: 50px;
+    margin-top: 110px;
   }
-  .about .about-team .about-name {
-    margin-top: 75px;
+  .about .about-team .about-name h5 {
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 768px) {
+  /*About section*/
+  .about .about-team img {
+    max-width: 250px;
   }
   .about .about-team .about-name h2 {
-    font-size: 42px;
-    margin-top: 120px;
+    margin-top: 140px;
   }
 }
 @media (min-width: 992px) {
   /*About section*/
   .about {
-    margin-bottom: 0px;
-  }
-  .about .info {
-    text-align: center;
-    margin-bottom: 100px;
-  }
-  .about .info h1 {
-    font-size: 60px;
-  }
-  .about .info p {
-    font-size: 22px;
-    width: 900px;
-    margin: auto;
+    margin-bottom: 60px;
   }
   .about .about-team {
-    height: 840px;
+    height: 830px;
   }
-  .about .about-team .about-name {
-    margin-top: 0px;
+  .about .about-team img {
+    max-width: 200px;
   }
   .about .about-team .about-name h2 {
     margin-top: 0;
+  }
+  .about .about-team .about-name h5 {
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
@@ -9469,7 +9458,59 @@ img {
   .about .about-team .about-name {
     margin-top: 93px;
   }
+  .about .about-team .about-name h2 {
+    font-size: 42px;
+  }
 }
+@media (min-width: 1400px) {
+  /*About section*/
+  .about .about-team {
+    height: 530px;
+  }
+}
+.vision-mission {
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.vision-mission h2 {
+  color: #4A5CFF;
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+.vision-mission p {
+  text-align: center;
+}
+
+.values .values-spacing {
+  width: 610px;
+}
+.values .values-header h2 {
+  color: #E73BA5;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.values .values-header p {
+  text-align: justify;
+  margin-bottom: 45px;
+}
+.values .values-content h2 {
+  color: #000000;
+  font-size: 37px;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  margin-bottom: 15px;
+}
+.values .values-content p {
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
 /*News section start*/
 .news h1 {
   font-family: "Madimi One", sans-serif;
@@ -9590,9 +9631,8 @@ img {
 .call .info-call a:hover {
   color: #00ced1;
 }
-.call .question {
+/* .call .question {
   /*accordian*/
-}
 .call .question h2 {
   font-family: "Madimi One", sans-serif;
   text-align: center;
