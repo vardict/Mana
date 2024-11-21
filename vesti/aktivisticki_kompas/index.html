@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="32x32" href="">
-    <link href="sass/style.css" rel="stylesheet">
+    <link href="../../sass/style.css" rel="stylesheet">
 
     <title>Kolektiv MANA</title>
 
     <!--ios compatibility-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Kolektiv Mana">
-    <link rel="apple-touch-icon" href="image/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" href="../../image/apple-icon-144x144.png">
 
 
     <!--Android compatibility-->
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Kolektiv Mana">
-    <link rel="icon" type="image/png" href="image/android-icon-192x192.png">
+    <link rel="icon" type="image/png" href="../../image/android-icon-192x192.png">
 </head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CM9PYPLK1V"></script>
 <script>
@@ -32,7 +33,6 @@
     gtag('config', 'G-CM9PYPLK1V');
 </script>
 
-
 <body>
 
     <header>
@@ -40,8 +40,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img class="main-img mb-3"
-                            src="image/mana_logo_1.svg"></a>
+                    <a class="navbar-brand" href="../../index.html"><img class="main-img mb-3"
+                            src="../../image/mana_logo_1.svg"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -52,16 +52,17 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html" id="about">Početna</a>
+                                <a class="nav-link active" aria-current="page" href="../../index.html"
+                                    id="about">Početna</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">O nama</a>
+                                <a class="nav-link" href="../../o_nama/index.html">O nama</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="news.html">Vesti</a>
+                                <a class="nav-link active" href="../../vesti/index.html">Vesti</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Kontakt</a>
+                                <a class="nav-link active" href="../../kontakt/index.html">Kontakt</a>
                             </li>
 
                         </ul><!--ul list end-->
@@ -73,26 +74,39 @@
 
     <main>
         <div class="container">
-            <section class="contact">
-                <article class="contact-info">
-                    <h1>Kontakt:</h1>
-                    <p class="contact-info-text">
-                        Možete nas kontaktirati na email adresi
-                        <a href="mailto:kolektivmana@gmail.com">kolektivmana@gmail.com</a>
-                        ili popunite sledeći formular:
+            <section class="active-compas">
+                <article class="active-compas-info">
+                    <h1>Aktivistički kompas - metodologija rada</h1>
+                    <p>
+                        Želiš da koristiš metodu aktivističkog kompasa?
+                        Samo napred!
+                        PDF dokument sa svim informacijama, uputstvima i preporukama možeš preuzeti na srpskom ili
+                        engleskom.
                     </p>
-                </article>
-                <article>
-                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="8234de12-2ff1-4d12-a640-b56240947610">
+                    <p class="mb-lg-4">
+                        Ako imaš nekih pitanja ili predloga u vezi sa metodologijom,
+                        možeš nam pisati na <a href="mailto:milica@kolektivmana.com">milica@kolektivmana.com</a>.
+                    </p>
 
-                        <input class="contact-form-input" type="text" name="name" placeholder="Ime" required>
-                        <input class="contact-form-input" type="text" name="email" placeholder="Email" required>
-                        <textarea class="contact-form-input" name="message" placeholder="Poruka" required></textarea>
-                        <button class="btn contact-form-button">Poslati</button>
-                    </form>
-                </article>
-            </section><!--contact section end-->
+                    <article class="buttons">
+
+                        <a href="../../files/SRB_Aktivisticki_kompas.pdf" download="SRB_Aktivisticki_kompas"
+                            target="_blank">
+                            <button class="btn button-srb">
+                                <img src="../../image/active-copmas/srb_dugme.png">
+                            </button>
+                        </a>
+
+                        <a href="../../files/ENG_Activist_Compass.pdf" download="ENG_Activist_Compass" target="_blank">
+                            <button class="btn button-eng">
+                                <img src="../../image/active-copmas/eng_dugme.png">
+                            </button>
+                        </a>
+
+                    </article><!--.buttons end-->
+                </article><!--.active-copmas-info end-->
+
+            </section><!--.active-compas section end-->
         </div><!--.container end-->
     </main><!--Main end-->
 
@@ -111,7 +125,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="../../main.js"></script>
     <script src="https://kit.fontawesome.com/42f609c323.js" crossorigin="anonymous"></script>
 </body>
 
