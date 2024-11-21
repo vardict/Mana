@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="32x32" href="">
-    <link href="../../sass/style.css" rel="stylesheet">
+    <link href="../sass/style.css" rel="stylesheet">
 
     <title>Kolektiv MANA</title>
 
     <!--ios compatibility-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Kolektiv Mana">
-    <link rel="apple-touch-icon" href="../../image/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" href="../image/apple-icon-144x144.png">
 
 
     <!--Android compatibility-->
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Kolektiv Mana">
-    <link rel="icon" type="image/png" href="../../image/android-icon-192x192.png">
+    <link rel="icon" type="image/png" href="../image/android-icon-192x192.png">
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -34,14 +34,11 @@
 </script>
 
 <body>
-
     <header>
-
         <div class="container">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../../"><img class="main-img mb-3"
-                            src="../../image/mana_logo_1.svg"></a>
+                    <a class="navbar-brand" href="../"><img class="main-img mb-3" src="../image/mana_logo_1.svg"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -52,16 +49,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../../" id="about">Početna</a>
+                                <a class="nav-link active" aria-current="page" href="../" id="about">Početna</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../../o_nama/">O nama</a>
+                                <a class="nav-link" href="../o_nama/">O nama</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="../../vesti/">Vesti</a>
+                                <a class="nav-link" href="../vesti/">Vesti</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="../../kontakt/">Kontakt</a>
+                                <a class="nav-link" href="../blog/">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../kontakt/">Kontakt</a>
                             </li>
 
                         </ul><!--ul list end-->
@@ -72,41 +72,49 @@
     </header>
 
     <main>
+
         <div class="container">
-            <section class="active-compas">
-                <article class="active-compas-info">
-                    <h1>Aktivistički kompas - metodologija rada</h1>
-                    <p>
-                        Želiš da koristiš metodu aktivističkog kompasa?
-                        Samo napred!
-                        PDF dokument sa svim informacijama, uputstvima i preporukama možeš preuzeti na srpskom ili
-                        engleskom.
-                    </p>
-                    <p class="mb-lg-4">
-                        Ako imaš nekih pitanja ili predloga u vezi sa metodologijom,
-                        možeš nam pisati na <a href="mailto:milica@kolektivmana.com">milica@kolektivmana.com</a>.
-                    </p>
+            <section class="news">
+                <h1>Blog</h1>
 
-                    <article class="buttons">
+                <article class="news-content">
+                    <div class="news-content-text">
+                        <h3><a href="../blog/aktivisticki_kompas/" class="news-title">
+                                Aktivistički kompas - metodologija rada
+                            </a></h3>
+                        <p>
+                            Želiš da koristiš metodu aktivističkog kompasa?
+                            Samo napred!
+                            <!-- PDF dokument sa svim informacijama, uputstvima i preporukama možeš preuzeti na srpskom ili
+                            engleskom. -->
+                        </p>
+                        <button class="btn news-button"><a href="../blog/aktivisticki_kompas/">Pročitaj
+                                više</a></button>
+                    </div>
+                </article><!--.article-end-->
 
-                        <a href="../../files/SRB_Aktivisticki_kompas.pdf" download="SRB_Aktivisticki_kompas"
-                            target="_blank">
-                            <button class="btn button-srb">
-                                <img src="../../image/active-copmas/srb_dugme.png">
-                            </button>
-                        </a>
-
-                        <a href="../../files/ENG_Activist_Compass.pdf" download="ENG_Activist_Compass" target="_blank">
-                            <button class="btn button-eng">
-                                <img src="../../image/active-copmas/eng_dugme.png">
-                            </button>
-                        </a>
-
-                    </article><!--.buttons end-->
-                </article><!--.active-copmas-info end-->
-
-            </section><!--.active-compas section end-->
+                <article class="news-content">
+                    <div class="news-content-text">
+                        <h3><a href="../blog/radionica_zvucnih_pejzaza/" class="news-title">
+                                Radionica zvučnih pejzaža - MANA na Novosadskoj nedelji ponosa
+                            </a></h3>
+                        <p>
+                            U okviru Novosadske nedelje ponosa, Milica i Dina su ispred MANE održale kreativnu radionicu
+                            LGBT+ soundscapes.
+                            Soundscapes tj zvučni pejzaži je dramska tehnika koja se oslanja isključivo na zvuk da
+                            dočara
+                            scene,
+                            i uz pomoć nje smo priredili performanse sa kvir tematikom.
+                            U prvom delu radionice, upoznali smo se sa različitim načinima kako možemo da proizvodimo
+                            zvuk.
+                        </p>
+                        <button class="btn news-button"><a href="../blog/radionica_zvucnih_pejzaza/">Pročitaj
+                                više</a></button>
+                    </div>
+                </article><!--.article-end-->
+            </section><!--section news end-->
         </div><!--.container end-->
+
     </main><!--Main end-->
 
     <footer>
@@ -124,7 +132,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="../../main.js"></script>
+    <script src="../main.js"></script>
     <script src="https://kit.fontawesome.com/42f609c323.js" crossorigin="anonymous"></script>
 </body>
 
